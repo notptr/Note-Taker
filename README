@@ -1,0 +1,14 @@
+This is a simple note taker program that will work on Windows and Linux
+This is written in python 3.
+
+usage
+
+-r will read the lines out of the file
+-w will write the line to file
+-d deletes lines out of the file
+
+
+notetaker -w this is just example - writes
+notetaker -r -read
+notetaker -d 1 - will delete the first line
+notetaker -d 1-5 will delete lines 1 through 5
